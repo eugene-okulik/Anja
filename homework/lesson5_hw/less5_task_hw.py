@@ -23,4 +23,4 @@ print(int_a + 10, int_b + 10, int_c + 10)
 students=['Ivanov', 'Petrov', 'Sidorov']
 subjects=['math', 'biology', 'geography']
 sb=','.join(subjects)
-print(f'Students {','.join(students)} study these subjects: {sb}')
+print(f'Students {",".join(students)} study these subjects: {sb}')
