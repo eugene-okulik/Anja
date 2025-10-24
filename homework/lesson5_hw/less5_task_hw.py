@@ -1,10 +1,10 @@
 """homework_5"""
-#task_1
+# task_1
 person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 name, last_name, city, phone, country = person
 print(name, last_name, city, phone, country)
 
-#task_2
+# task_2
 a = 'результат операции: 42'
 b = 'результат операции: 514'
 c = 'результат работы программы: 9'
@@ -19,7 +19,7 @@ int_c = int(c[ind_c + 1:].strip())
 
 print(int_a + 10, int_b + 10, int_c + 10)
 
-#task_3
+# task_3
 students = ['Ivanov', 'Petrov', 'Sidorov']
 subjects = ['math', 'biology', 'geography']
 sb = ','.join(subjects)
