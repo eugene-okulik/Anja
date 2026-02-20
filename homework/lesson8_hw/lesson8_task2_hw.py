@@ -4,6 +4,7 @@ def fibonacci():
         yield a
         a, b = b, a + b
 
+
 indices = {5, 200, 1000, 100000}
 results = {}
 
@@ -23,4 +24,3 @@ for i in sorted(indices):
         print(results[i])
     elif len_num <= 300:
         print(f'{len_num}-значное число')
-    
